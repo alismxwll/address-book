@@ -5,9 +5,25 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <script src="scripts/jquery-1.11.1.js" type="text/javascript"></script>
   <script src="scripts/scripts.js" type="text/javascript"></script>
-  <title></title>
+  <title>Address Book</title>
 </head>
 <body>
-
+  <h1>Address Book</h1>
+  <h3>Add a Contact:</h3>
+  <form id="input-form">
+    <button id="add" type="submit">Add</button>
+    <input id="first-name" type="text" placeholder="Enter a first name">
+    <input id="last-name" type="text" placeholder="Enter a last name">
+    <div class="new-address">
+      <input id="street" type="text" placeholder="Enter street name">
+      <input id="city" type="text" placeholder="Enter city name">
+      <input id="state" type="text" placeholder="Enter state name">
+    </div>
+  </form>
+    <button id="add-address" type="submit">Add address</button>
+  <h3>Contacts</h3>
+  <ul class="contacts">
+  </ul>
+  <h3>Address</h3>
 </body>
 </html>
